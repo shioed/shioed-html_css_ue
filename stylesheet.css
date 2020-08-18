@@ -20,3 +20,19 @@ ul{
 li:first-child{
     padding-bottom: 5px;
 }
+
+input{
+    display: block;
+}
+
+.btn{
+    color: white;
+    background-color: #007BFF;
+    border: none;
+}
+
+.form-control{
+    border: solid 1px #DEE2E6;
+    padding: 10px 13px;
+    margin-top: 12px;
+}
