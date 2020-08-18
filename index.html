@@ -16,24 +16,26 @@
 
 
     <form>
+        <div class="register-form"> 
+            <div>
+                <label for="name">名前</label>
+                <input type="text" id="name" name="name" placeholder="姓　名" class="form-control">
+            </div>
+    
+            <div>
+                <label for="mail">メールアドレス</label>
+                <input type="email" id="mail" name="mail" placeholder="sample@hoge.com" class="form-control">
+            </div>
 
-        <div>
-            <label for="name">名前</label>
-            <input type="text" id="name" name="name" placeholder="姓　名" class="form-control">
+            <div>
+                <label for="intro">自己紹介</label>
+                <input type="text" id="intro" name="intro" placeholder="255文字以内で記入してください" class="form-control">
+            </div>
+
+             <input type="submit" value="送信" class="btn">
         </div>
+        </form>
 
-        <div>
-            <label for="mail">メールアドレス</label>
-            <input type="email" id="mail" name="mail" placeholder="sample@hoge.com" class="form-control">
-        </div>
-
-        <div>
-            <label for="intro">自己紹介</label>
-            <input type="text" id="intro" name="intro" placeholder="255文字以内で記入してください" class="form-control">
-        </div>
-
-        <input type="submit" value="送信" class="btn">
-    </form>
     <table>
         <thead>
             <tr>
@@ -61,7 +63,7 @@
                 <td>3</td>
                 <td>shiro</td>
                 <td>shiro@com</td>
-                <td>ラーメン好きです</td>
+                <td>ラーメン好きです。一緒にラーメンたべにいきましょう！！</td>
             </tr>
         </tbody>
     </table>
