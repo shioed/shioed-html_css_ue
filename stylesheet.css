@@ -1,0 +1,49 @@
+table {
+    border-collapse: collapse;
+}
+
+th{
+    text-align: left;
+    background-color: #ECEEEF;
+    border: solid 1px #ECEEEF;
+    padding: 16px 10px;
+}
+
+td{
+    border: solid 1px #DEE2E6;
+}
+
+ul{
+    margin: 16px 10px;
+}
+
+li:first-child{
+    padding-bottom: 5px;
+}
+
+input{
+    display: block;
+}
+
+.btn{
+    color: white;
+    background-color: #007BFF;
+    border: none;
+    margin-top: 36px;
+}
+
+.form-control{
+    border: solid 1px #DEE2E6;
+    padding: 10px 13px;
+    margin-top: 12px;
+}
+
+body {
+    margin: 80px;
+}
+
+.register-form{
+    display: flex;
+    justify-content: space-between;
+    width: 655px;
+}
