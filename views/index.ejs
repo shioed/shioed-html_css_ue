@@ -8,73 +8,75 @@
 </head>
 
 <body>
-    <div class="header">
-        <h1>新人自己紹介掲示板</h1>
+    <div class="container">
+        <div class="header">
+            <h1>新人自己紹介掲示板</h1>
+        </div>
+
+        <div class="main">
+            <!-- <p>どんな新人がいるのかなあ。。。プリリズ好きな人いるといいなーーーー</p> -->
+            <ul>
+                <li> 新人の自己紹介が書き込まれるよ</li>
+                <li> html/css　bootcampのお題だよ</li>
+            </ul>
+            <form>
+                <div class="register-form">
+                    <div>
+                        <label for="name">名前</label>
+                        <input type="text" id="name" name="name" placeholder="姓　名" class="form-control">
+                    </div>
+
+                    <div>
+                        <label for="mail">メールアドレス</label>
+                        <input type="email" id="mail" name="mail" placeholder="sample@hoge.com" class="form-control">
+                    </div>
+
+                    <div>
+                        <label for="intro">自己紹介</label>
+                        <input type="text" id="intro" name="intro" placeholder="255文字以内で記入してください" class="form-control">
+                    </div>
+
+                    <input type="submit" value="送信" class="btn">
+                </div>
+            </form>
+
+            <table>
+                <thead>
+                    <tr>
+                        <th>ID</th>
+                        <th>名前</th>
+                        <th>メールアドレス</th>
+                        <th>自己紹介</th>
+                    </tr>
+                </thead>
+
+                <tbody>
+                    <tr>
+                        <td>1</td>
+                        <td>ao</td>
+                        <td>aoiro@com</td>
+                        <td>漫画好きです</td>
+                    </tr>
+                    <tr>
+                        <td>2</td>
+                        <td>kuro</td>
+                        <td>kuro@com</td>
+                        <td>ギター好きです</td>
+                    </tr>
+                    <tr>
+                        <td>3</td>
+                        <td>shiro</td>
+                        <td>shiro@com</td>
+                        <td>ラーメン好きです。一緒にラーメンたべにいきましょう！！</td>
+                    </tr>
+                </tbody>
+            </table>
+
+            <p><b>qiita</b> は <a href="https://qiita.com/">こちら</a></p>
+
+        </div> <!-- main -->
     </div>
-
-    <div class="main">
-        <p>どんな新人がいるのかなあ。。。プリリズ好きな人いるといいなーーーー</p>
-        <ul>
-            <li> 新人の自己紹介が書き込まれるよ</li>
-            <li> html/css　bootcampのお題だよ</li>
-        </ul>
-        <form>
-            <div class="register-form">
-                <div>
-                    <label for="name">名前</label>
-                    <input type="text" id="name" name="name" placeholder="姓　名" class="form-control">
-                </div>
-
-                <div>
-                    <label for="mail">メールアドレス</label>
-                    <input type="email" id="mail" name="mail" placeholder="sample@hoge.com" class="form-control">
-                </div>
-
-                <div>
-                    <label for="intro">自己紹介</label>
-                    <input type="text" id="intro" name="intro" placeholder="255文字以内で記入してください" class="form-control">
-                </div>
-
-                <input type="submit" value="送信" class="btn">
-            </div>
-        </form>
-
-        <table>
-            <thead>
-                <tr>
-                    <th>ID</th>
-                    <th>名前</th>
-                    <th>メールアドレス</th>
-                    <th>自己紹介</th>
-                </tr>
-            </thead>
-
-            <tbody>
-                <tr>
-                    <td>1</td>
-                    <td>ao</td>
-                    <td>aoiro@com</td>
-                    <td>漫画好きです</td>
-                </tr>
-                <tr>
-                    <td>2</td>
-                    <td>kuro</td>
-                    <td>kuro@com</td>
-                    <td>ギター好きです</td>
-                </tr>
-                <tr>
-                    <td>3</td>
-                    <td>shiro</td>
-                    <td>shiro@com</td>
-                    <td>ラーメン好きです。一緒にラーメンたべにいきましょう！！</td>
-                </tr>
-            </tbody>
-        </table>
-
-        <p><b>qiita</b> は <a href="https://qiita.com/">こちら</a></p>
-
-    </div> <!-- main -->
-
+    <!--container-->
     <div class="footer">
         <p>(C) hoge Ltd.</p>
     </div> <!-- footer-->
