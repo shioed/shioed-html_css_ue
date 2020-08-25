@@ -1,3 +1,30 @@
+.header{
+    background-color: red;
+    margin: 0;
+}
+
+.main{
+    background-color: blue;
+    padding: 0;
+    margin: 0;
+}
+
+h1{
+    margin: 0;
+}
+
+p{
+    margin: 0;
+}
+
+body{
+    margin: 0;
+}
+
+.footer{
+    background-color: green;
+}
+
 table {
     border-collapse: collapse;
 }
@@ -36,10 +63,6 @@ input{
     border: solid 1px #DEE2E6;
     padding: 10px 13px;
     margin-top: 12px;
-}
-
-body {
-    margin: 80px;
 }
 
 .register-form{
